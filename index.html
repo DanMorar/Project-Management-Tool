@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project Management Tool</title>
+	<script src='app.js'></script>
+</head>
+<body>
+	<h1>Project Management Tool</h1>
+	<div>
+		<h2>Pick up your user:</h2>
+		<form>
+			<input type="radio" name="user" value="user1">User 1<br>
+			<input type="radio" name="user" value="user2">User 2<br>
+			<input type="radio" name="user" value="user3">User 3<br>
+		</form>
+	</div>
+	<div>
+		<h2>Choose an issue:</h2>
+		<form>
+			<input type="radio" name="issue" value="feature">Feature<br>
+			<input type="radio" name="issue" value="bug">Bug<br>
+			<input type="radio" name="issue" value="task">Task<br>
+			<h3>Issue status:</h3>
+			<input type="radio" name="status" value="new">New<br>
+			<input type="radio" name="status" value="inProgress">In Progress<br>
+			<input type="radio" name="status" value="feedback">Feedback<br>
+			<input type="radio" name="status" value="rework">Rework<br>
+			<input type="radio" name="status" value="resolved">Resolved<br>
+			<input type="radio" name="status" value="readyForTesting">Ready for Testing<br>
+		</form>
+	</div>
+	<div>
+		<h2>Choose a sprint:</h2>
+		<form>
+			<input type="radio" name="sprint" value="sprint1">Sprint 1<br>
+			<input type="radio" name="sprint" value="sprint2">Sprint 2<br>
+			<input type="radio" name="sprint" value="sprint3">Sprint 3<br>
+		</form>
+	</div>
+	<div>
+		<h2>Choose a subtask:</h2>
+		<form>
+			<input type="radio" name="subtask" value="subtask1">Subtask 1<br>
+			<input type="radio" name="subtask" value="subtask2">Subtask 2<br>
+			<input type="radio" name="subtask" value="subtask3">Subtask 3<br>
+		</form>
+	</div>
+	<div>
+		<button id="createIssue">Create an issue</button>
+	</div>
+	
+
+</body>
+</html>
